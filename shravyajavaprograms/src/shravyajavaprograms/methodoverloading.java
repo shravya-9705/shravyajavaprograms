@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	h.add(10.4f,9.3f);
 	h.add(10,20);
 	h.add("virat", "and","kohli");
-}
+}                    
 }
 class hello
 {
