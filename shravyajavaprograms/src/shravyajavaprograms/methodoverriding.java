@@ -3,7 +3,7 @@ package shravyajavaprograms;
 public class methodoverriding {
 	public static void main(String[] args)
 	{
-		polygon t=new polygon();
+		polygon t=new rectangle();
 		t.greet();
 		t.nos();
 		t.area();
@@ -24,7 +24,7 @@ class polygon
 		System.out.println("polygon have area");
 	}
 }
-class reactangle extends polygon
+class rectangle extends polygon
 {
 	void nos()
 	{

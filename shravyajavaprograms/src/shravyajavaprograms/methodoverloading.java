@@ -18,10 +18,6 @@ class hello
 	{
 		System.out.println("string sum="+(c+d+f));
 	}
-	void add(int g,int h,int i,int j)
-	{
-		System.out.println("sum"+(g+h+i+j));
-	}
 	void add(float a,float b)
 	{
 		System.out.println("float sum="+(a+b));
