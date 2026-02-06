@@ -7,8 +7,10 @@ public static void main(String[] args) {
 	stu s1=new stu();
 	
 	s1.read();
+	s1.update(45.3f);
 	s1.show();
 }
+
 }
 class stu
 {
@@ -24,6 +26,10 @@ class stu
 	    per=x.nextFloat();
 		
 	}
+	  void update(float p)
+	  {
+		  per=p;
+	  }
 	  void show()
 	  {
 		  System.out.println(name+"\t"+age+"\t"+per);

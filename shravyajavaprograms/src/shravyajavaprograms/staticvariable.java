@@ -17,7 +17,10 @@ public static void main(String[] args) {
 }
 class student 
 {
-	String name;
+	String
+	
+	
+	name;
 	int age;
 	float cgpa;
 	static String college="CIT";
